@@ -1,0 +1,43 @@
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensures the container takes up the full height of the viewport */
+}
+
+.body {
+  text-align: center;
+  justify-content: center;
+  padding: 0%;
+}
+#text {
+  background-color: aliceblue;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+#btn {
+  background-color: aliceblue;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
